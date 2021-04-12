@@ -1,0 +1,36 @@
+article {
+  background-color: white;
+  background-image: url(images/top-image.png), url(images/bottom-image.png), linear-gradient(to bottom, #E0E0E0 10%, #FFFFFF 20%, #E0E0E0 90%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  height: 780px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 3px solid darkred;
+  border-bottom: 3px solid darkred;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+address {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+}
+
+h1 {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  height: 150px;
+  width: 130px;
+  filter: drop-shadow(0px 0px 4px rgba(0,0,0,1));
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px navy;
+  padding-top: 80px;
+  padding-left: 20px;
+}
